@@ -1,0 +1,23 @@
+#include "ganme_map.h"
+
+#include <QPainterPath>
+#include <QPainter>
+
+ganme_map::ganme_map()
+{
+    
+}
+
+QPainterPath ganme_map::shape() const
+{
+    //返回地图边界
+    // 使用Path
+    return QPainterPath(0)
+    
+}
+
+void ganme_map::paint(QPainter *painter, const QStyleOptionGraphicsItem *option, QWidget *widget)
+{
+    // 实际画法
+    painter->drawLine(0,0,10,10);
+}

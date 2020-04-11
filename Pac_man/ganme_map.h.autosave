@@ -1,0 +1,15 @@
+#ifndef GANME_MAP_H
+#define GANME_MAP_H
+
+#include <QGraphicsItem>
+
+class ganme_map : QGraphicsItem
+{
+public:
+    ganme_map();
+    
+    QPainterPath shape() const;
+    void paint(QPainter *painter,const QStyleOptionGraphicsItem *option, QWidget *widget = nullptr);
+};
+
+#endif // GANME_MAP_H
