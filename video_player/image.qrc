@@ -1,0 +1,8 @@
+<RCC>
+    <qresource prefix="/images">
+        <file>D:/open_file_normal.svg</file>
+        <file>D:/open_file_selected.svg</file>
+        <file>D:/play.svg</file>
+        <file>D:/volume.svg</file>
+    </qresource>
+</RCC>
